@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Computer Vision Demo</title>
+</head>
+<body>
+    <h1>Azure Computer Vision Demo</h1>
+    <h2>Extraer Texto de una Imagen</h2>
+    <form action="/extract_text" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Extraer Texto</button>
+    </form>
+
+    <h2>Identificar Objetos en una Imagen</h2>
+    <form action="/identify_objects" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Identificar Objetos</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Flask
+azure-cognitiveservices-vision-computervision
+msrest
+requests
